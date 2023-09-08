@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(161, 161, 255);
+    font: normal 15pt Arial;
+}
+
+body.dark {
+    background: #232c35;
+}
+
+header {
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 15px;
+    height: 400px;
+    width: 30vw;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.295) 5px 5px 10px;
+
+}
+
+
+div#txtn {
+    padding: 20px;
+}
+
+div#res {
+    padding: 20px;
+}
+
