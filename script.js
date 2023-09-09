@@ -1,4 +1,9 @@
 
+window.onload = function () {
+    document.getElementById("txtnum").focus();
+};
+
+
 function enviar(){
 
     var num = document.getElementById('txtnum')
@@ -29,12 +34,11 @@ function enviar(){
 }
 
 
-
-
-
 const chk = document.getElementById('chk')
 
 chk.addEventListener('change' , () => {
     document.body.classList.toggle('dark')
 })
+
+
 
